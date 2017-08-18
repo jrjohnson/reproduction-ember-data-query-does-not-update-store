@@ -1,0 +1,10 @@
+<h2>Refresh me</h2>
+<p>to see that not all objectives are loaded</p>
+<p>There should be <strong>13 Objectives</strong></p>
+
+Objectives: {{model.objectives.length}}
+<ol>
+  {{#each model.objectives as |objective|}}
+    <li>{{objective.id}}</li>
+  {{/each}}
+</ol>

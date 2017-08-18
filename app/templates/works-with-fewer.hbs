@@ -1,0 +1,9 @@
+<h2>Refresh me and nothing will change</h2>
+<p>There should be <strong>10 Objectives</strong></p>
+
+Objectives: {{model.objectives.length}}
+<ol>
+  {{#each model.objectives as |objective|}}
+    <li>{{objective.id}}</li>
+  {{/each}}
+</ol>

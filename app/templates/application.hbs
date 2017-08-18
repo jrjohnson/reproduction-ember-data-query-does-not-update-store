@@ -1,5 +1,6 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<header>
+  {{#link-to 'works' 850}}Working Route{{/link-to}} <br />
+  {{#link-to 'broken' 850}}Broken Route{{/link-to}} <br />
+  {{#link-to 'works-with-fewer' 144}}Working with fewer related items{{/link-to}} <br />
+</header>
 {{outlet}}
